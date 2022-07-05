@@ -1,5 +1,5 @@
 [2022-03-10 15:15:20.020][ERROR][org.springframework.boot.SpringApplication][main][830]Application run failed
-java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected:
 ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [io.sentry.logback.SentryAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type io.sentry.logback.SentryAppender
 ERROR in ch.qos.logback.core.joran.spi.Interpreter@39:74 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type io.sentry.logback.SentryAppender
 ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [SENTRY]. Did you define it below instead of above in the configuration file?
@@ -22,8 +22,8 @@ ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.template.Application.main(Application.java:10)
-Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+	at com.messenger.Application.main(Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected:
 ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [io.sentry.logback.SentryAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type io.sentry.logback.SentryAppender
 ERROR in ch.qos.logback.core.joran.spi.Interpreter@39:74 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type io.sentry.logback.SentryAppender
 ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [SENTRY]. Did you define it below instead of above in the configuration file?
@@ -35,7 +35,7 @@ ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback
 	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
 	... 18 common frames omitted
 [2022-03-10 15:15:46.046][ERROR][org.springframework.boot.SpringApplication][main][830]Application run failed
-java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected:
 ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [SENTRY]. Did you define it below instead of above in the configuration file?
 ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
 	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328)
@@ -56,8 +56,8 @@ ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.template.Application.main(Application.java:10)
-Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+	at com.messenger.Application.main(Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected:
 ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [SENTRY]. Did you define it below instead of above in the configuration file?
 ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
 	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
@@ -66,7 +66,7 @@ ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback
 	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
 	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
 	... 18 common frames omitted
-[2022-03-10 15:16:13.013][INFO ][org.springframework.boot.StartupInfoLogger][main][55]Starting Application using Java 17.0.1 on truong-Latitude-7480 with PID 98983 (/home/truong/Documents/spring-boot-java17-template/target/classes started by truong in /home/truong/Documents/spring-boot-java17-template)
+[2022-03-10 15:16:13.013][INFO ][org.springframework.boot.StartupInfoLogger][main][55]Starting Application using Java 17.0.1 on truong-Latitude-7480 with PID 98983 (/home/truong/Documents/social_network_messenger/target/classes started by truong in /home/truong/Documents/social_network_messenger)
 [2022-03-10 15:16:13.013][INFO ][org.springframework.boot.SpringApplication][main][640]No active profile set, falling back to 1 default profile: "default"
 [2022-03-10 15:16:14.014][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8080 (http)
 [2022-03-10 15:16:14.014][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8080"]
@@ -77,7 +77,7 @@ ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback
 [2022-03-10 15:16:15.015][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8080"]
 [2022-03-10 15:16:15.015][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][220]Tomcat started on port(s): 8080 (http) with context path ''
 [2022-03-10 15:16:15.015][INFO ][org.springframework.boot.StartupInfoLogger][main][61]Started Application in 2.065 seconds (JVM running for 2.816)
-[2022-03-10 15:18:16.016][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.1 on truong-Latitude-7480 with PID 99702 (/home/truong/Documents/spring-boot-java17-template/target/classes started by truong in /home/truong/Documents/spring-boot-java17-template)
+[2022-03-10 15:18:16.016][INFO ][org.springframework.boot.StartupInfoLogger][restartedMain][55]Starting Application using Java 17.0.1 on truong-Latitude-7480 with PID 99702 (/home/truong/Documents/social_network_messenger/target/classes started by truong in /home/truong/Documents/social_network_messenger)
 [2022-03-10 15:18:16.016][INFO ][org.springframework.boot.SpringApplication][restartedMain][640]No active profile set, falling back to 1 default profile: "default"
 [2022-03-10 15:18:16.016][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]The Class-Path manifest attribute in /home/truong/.m2/repository/org/liquibase/liquibase-core/4.5.0/liquibase-core-4.5.0.jar referenced one or more files that do not exist: file:/home/truong/.m2/repository/org/liquibase/liquibase-core/4.5.0/snakeyaml-1.27.jar
 [2022-03-10 15:18:16.016][INFO ][org.springframework.boot.logging.DeferredLog][restartedMain][255]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
